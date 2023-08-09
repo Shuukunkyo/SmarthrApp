@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DiceRoller</string>
+    <string name="luckyNumber">Lucky Number!</string>
+    <string name="ok_10">ok(10%)</string>
+    <string name="good_16">Good(16%)</string>
+    <string name="amazing_21">Amazding(21%)</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="calculate_button">CALCULATE</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="cost_of_service">cost of service</string>
+    <string name="round_up_tip">Round Up Tip?</string>
+    <string name="account">アカウント作成</string>
+    <string name="signup">Sign In</string>
+    <string name="textview">すでにアカウントをお持ちですか？</string>
+    <string name="sginin">ユーザー登録</string>
+    <string name="createuser">新規ユーザー登録</string>
+</resources>

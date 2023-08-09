@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 這表明該文件是XML文件，但並非每個XML文件都包含此文件
+*version NBSP 版本
+*encoding NBSP 編碼方式 -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/how_was_the_service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/amazing21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amazing_21" />
+
+        <RadioButton
+            android:id="@+id/good16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good_16" />
+
+        <RadioButton
+            android:id="@+id/ok10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/ok_10" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="228dp"
+        android:text="@string/calculate_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/tipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="200dp"
+        android:text="@string/tip_amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/costOfService"
+        android:layout_width="249dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/cost_of_service"
+        android:inputType="numberDecimal"
+        android:textColorHint="#8D6E63"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/roundUpTip"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:checked="true"
+        android:text="@string/round_up_tip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        tools:ignore="UseSwitchCompatOrMaterialXml,VisualLintButtonSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!-- ConstraintLayout該UI組件是Jetpack的-
+    一部分,因它以
+    androidy開頭其中包含代碼庫，這些代碼庫在核心Android平台之上提供了附加功能。
+    具有Jetpack的功能，可以利用它們簡化構建應用程序的過程。
+    * ConstraintLayout 約束布局
+    *widget 小部件
+    ConstraintLayout是父母（文級）
+    例妇，一個ConstraintLayout 約束佈局（父級）可以包含Buttons, TextVier
+    請注意，此視圖届次結構與類的届次結構無關
+    ConstraintLayout要求每個子集都必須具有水平和垂直約束
+    android:layout_width="match_parent"
+    android:layout_ height="match_parent" -->
