@@ -12,10 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //本案例使用findById找到ui  此次按钮id为 button
-//        Android 会自动将ID号码指派给应用程式的资源
-//        资源ID的形式为R.<type>.<name>
-//        对于View的ID<type>为id 例如R.id.button
+
+
         val rollButton: Button = findViewById(R.id.button)
         rollButton.setOnClickListener {
             //呼叫Toast.makeText()方法即可建立内含文字"Dice Rolled!"的Toast
