@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //test
         //本案例使用findById找到ui  此次按钮id为 button
 //        Android 会自动将ID号码指派给应用程式的资源
 //        资源ID的形式为R.<type>.<name>
